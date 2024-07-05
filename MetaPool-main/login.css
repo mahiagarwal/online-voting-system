@@ -1,0 +1,233 @@
+/* body {
+  background-color: rgb(228, 232, 227);
+  border: 3px solid #201e1e;
+  
+  }
+
+
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px;
+  background-color: rgb(103, 132, 130);
+}
+
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+
+
+.container {
+  padding: 16px;
+}
+
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+
+  .cancelbtn {
+    width: 100%;
+  }
+} */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.background {
+  background: url("https://media.istockphoto.com/id/1360927961/photo/abstract-background-with-interweaving-of-colored-lines-and-dots-network-connection-structure.jpg?b=1&s=170667a&w=0&k=20&c=BCLVJcuR8DrnmryR06g41jl0bFwLEtXyWaIydOnNfQ4=") rgba(0, 0, 0, 0.61);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  filter: blur(5px);
+  min-height: 800px;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  margin: 10vh auto;
+  background: transparent;
+  box-shadow: 0 0 15px rgb(255, 255, 255);
+  border-radius: 25px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.form-item {
+  display: flex;
+  width: 90%;
+  background: transparent;
+  margin: 10px auto;
+  border-radius: 15px;
+  align-items: center;
+  border-bottom: 1px solid rgb(82, 81, 81);
+}
+
+.form-item:hover {
+  border: 1px solid rgb(82, 81, 81);
+}
+
+input {
+  background: transparent;
+  width: 80%;
+  height: 30px;
+  outline: none;
+  border: none;
+  margin: auto;
+  color: white;
+  font-size: 17px;
+}
+
+span {
+  user-select: none;
+  margin: 5px;
+  color: rgb(172, 172, 172);
+  background: rgba(85, 81, 81, 0.637);
+  padding: 5px;
+  border-radius: 18px;
+}
+
+.button {
+  width: 180px;
+  font-size: 20px;
+  margin: 10px auto;
+  padding: 8px;
+  text-decoration: none;
+  background: rgba(122, 123, 116, 0.72);
+  border: none;
+  color: white;
+  background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9bc5c3, #616161); 
+}
+
+.button:hover {
+  background: rgba(151, 164, 185, 0.678);
+}
+
+p:first-of-type {
+  margin: 0;
+}
+
+.options {
+  display: flex;
+  margin: 10px auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  font-size: 18px;
+  padding: 5px 16px;
+  margin: 5px 15px;
+  width: 180px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+
+.fb:hover {
+  background: rgba(55, 53, 207, 0.637);
+  border: none;
+  box-shadow: 0 0 2px rgba(55, 53, 207, 0.637);
+}
+
+.gl:hover {
+  background: rgba(207, 53, 53, 0.671);
+  border: none;
+  box-shadow: 0 0 2px rgba(207, 53, 53, 0.671);
+}
+
+p {
+  font-size: 18px;
+  margin: 5px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    width: 90%;
+  }
+}
